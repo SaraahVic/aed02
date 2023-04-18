@@ -1,8 +1,4 @@
-void questao13(void)
-{
-    int num;
-    printf("digite um numero: ");
-    scanf("%d", &num);
-    if (num%5) { printf("numero nao e divisivel por 5"); }
-    else { printf("numero e divisivel por 5"); }
-}
+#ifndef QUESTAO_13_H_DEFINED
+#define QUESTAO_13_H_DEFINED
+void questao13(void);
+#endif
