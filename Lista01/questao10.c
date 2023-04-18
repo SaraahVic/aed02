@@ -20,7 +20,7 @@ void processamento10(char password[11], char input[100], char* matches)
 
 void saida10(char* matches)
 {
-    if (!*matches) { printf("a senha e valida"); }
+    if (*matches) { printf("a senha e valida"); }
     else { printf("a senha nao e invalida"); }
 }
 

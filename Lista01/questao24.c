@@ -24,7 +24,7 @@ void processamento24(int* compra, int* pago, int* um, int* dez, int* cem, int* t
 
 void saida24(int* um, int* dez, int* cem, int* troco)
 {
-    if (*troco>=0) { printf("o troco de %d reais pode ser pago com %d notas de 100, %d notas de 10 e %d notas de 1 real", *troco, *cem, *dez, *um); }
+    if (!*troco>=0) { printf("o troco de %d reais pode ser pago com %d notas de 100, %d notas de 10 e %d notas de 1 real", *troco, *cem, *dez, *um); }
     else { printf("Pagamento Negado"); }
 }
 
